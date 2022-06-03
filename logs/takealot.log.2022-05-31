@@ -1,0 +1,562 @@
+2022-05-31 11:02:18,933 [takealot] INFO  za.co.paygate.report.config.Config - Loading application.properties from resources/config/dev
+2022-05-31 11:02:18,943 [takealot] INFO  za.co.paygate.report.config.Config - Loading persistence.properties from resources/config/dev
+2022-05-31 11:02:18,945 [takealot] INFO  za.co.paygate.report.config.Config - Loading ${args.size} arg(s) into config
+2022-05-31 11:02:18,945 [takealot] INFO  Report - env:dev
+2022-05-31 12:12:49,897 [takealot] INFO  za.co.paygate.report.config.Config - Loading application.properties from resources/config/dev
+2022-05-31 12:12:49,897 [takealot] INFO  za.co.paygate.report.config.Config - Loading persistence.properties from resources/config/dev
+2022-05-31 12:12:49,897 [takealot] INFO  za.co.paygate.report.config.Config - Loading ${args.size} arg(s) into config
+2022-05-31 12:12:49,897 [takealot] INFO  Report - env:dev
+2022-05-31 12:15:18,757 [takealot] INFO  za.co.paygate.report.config.Config - Loading application.properties from resources/config/dev
+2022-05-31 12:15:18,757 [takealot] INFO  za.co.paygate.report.config.Config - Loading persistence.properties from resources/config/dev
+2022-05-31 12:15:18,773 [takealot] INFO  za.co.paygate.report.config.Config - Loading ${args.size} arg(s) into config
+2022-05-31 12:15:18,773 [takealot] INFO  Report - env:dev
+2022-05-31 12:17:25,980 [takealot] INFO  za.co.paygate.report.config.Config - Loading application.properties from resources/config/dev
+2022-05-31 12:17:25,983 [takealot] INFO  za.co.paygate.report.config.Config - Loading persistence.properties from resources/config/dev
+2022-05-31 12:17:25,986 [takealot] INFO  za.co.paygate.report.config.Config - Loading ${args.size} arg(s) into config
+2022-05-31 12:17:25,986 [takealot] INFO  Report - env:dev
+2022-05-31 12:27:41,385 [takealot] INFO  za.co.paygate.report.config.Config - Loading application.properties from resources/config/dev
+2022-05-31 12:27:41,385 [takealot] INFO  za.co.paygate.report.config.Config - Loading persistence.properties from resources/config/dev
+2022-05-31 12:27:41,385 [takealot] INFO  za.co.paygate.report.config.Config - Loading ${args.size} arg(s) into config
+2022-05-31 12:27:41,385 [takealot] INFO  Report - env:dev
+2022-05-31 12:32:59,733 [takealot] INFO  za.co.paygate.report.config.Config - Loading application.properties from resources/config/dev
+2022-05-31 12:32:59,733 [takealot] INFO  za.co.paygate.report.config.Config - Loading persistence.properties from resources/config/dev
+2022-05-31 12:32:59,738 [takealot] INFO  za.co.paygate.report.config.Config - Loading ${args.size} arg(s) into config
+2022-05-31 12:32:59,738 [takealot] INFO  Report - env:dev
+2022-05-31 13:00:05,709 [takealot] INFO  za.co.paygate.report.config.Config - Loading application.properties from resources/config/dev
+2022-05-31 13:00:05,709 [takealot] INFO  za.co.paygate.report.config.Config - Loading persistence.properties from resources/config/dev
+2022-05-31 13:00:05,709 [takealot] INFO  za.co.paygate.report.config.Config - Loading ${args.size} arg(s) into config
+2022-05-31 13:00:05,709 [takealot] INFO  Report - env:dev
+2022-05-31 13:12:38,483 [takealot] INFO  za.co.paygate.report.config.Config - Loading application.properties from resources/config/dev
+2022-05-31 13:12:38,483 [takealot] INFO  za.co.paygate.report.config.Config - Loading persistence.properties from resources/config/dev
+2022-05-31 13:12:38,483 [takealot] INFO  za.co.paygate.report.config.Config - Loading ${args.size} arg(s) into config
+2022-05-31 13:12:38,483 [takealot] INFO  Report - env:dev
+2022-05-31 13:13:58,603 [takealot] INFO  za.co.paygate.report.config.Config - Loading application.properties from resources/config/dev
+2022-05-31 13:13:58,603 [takealot] INFO  za.co.paygate.report.config.Config - Loading persistence.properties from resources/config/dev
+2022-05-31 13:13:58,611 [takealot] INFO  za.co.paygate.report.config.Config - Loading ${args.size} arg(s) into config
+2022-05-31 13:13:58,611 [takealot] INFO  Report - env:dev
+2022-05-31 13:25:48,912 [takealot] INFO  za.co.paygate.report.config.Config - Loading application.properties from resources/config/dev
+2022-05-31 13:25:48,912 [takealot] INFO  za.co.paygate.report.config.Config - Loading persistence.properties from resources/config/dev
+2022-05-31 13:25:48,928 [takealot] INFO  za.co.paygate.report.config.Config - Loading ${args.size} arg(s) into config
+2022-05-31 13:25:48,928 [takealot] INFO  Report - env:dev
+2022-05-31 13:25:59,706 [takealot] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [
+	name: paymentReport
+	...]
+2022-05-31 13:26:00,076 [takealot] INFO  org.hibernate.Version - HHH000412: Hibernate Core {5.2.4.Final}
+2022-05-31 13:26:00,107 [takealot] INFO  org.hibernate.cfg.Environment - HHH000206: hibernate.properties not found
+2022-05-31 13:26:00,123 [takealot] INFO  org.hibernate.cfg.Environment - HHH000021: Bytecode provider name : javassist
+2022-05-31 13:27:09,826 [takealot] INFO  za.co.paygate.report.config.Config - Loading application.properties from resources/config/dev
+2022-05-31 13:27:09,826 [takealot] INFO  za.co.paygate.report.config.Config - Loading persistence.properties from resources/config/dev
+2022-05-31 13:27:09,826 [takealot] INFO  za.co.paygate.report.config.Config - Loading ${args.size} arg(s) into config
+2022-05-31 13:27:09,826 [takealot] INFO  Report - env:dev
+2022-05-31 13:27:10,065 [takealot] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [
+	name: paymentReport
+	...]
+2022-05-31 13:27:10,248 [takealot] INFO  org.hibernate.Version - HHH000412: Hibernate Core {5.2.4.Final}
+2022-05-31 13:27:10,248 [takealot] INFO  org.hibernate.cfg.Environment - HHH000206: hibernate.properties not found
+2022-05-31 13:27:10,248 [takealot] INFO  org.hibernate.cfg.Environment - HHH000021: Bytecode provider name : javassist
+2022-05-31 13:30:01,484 [takealot] INFO  za.co.paygate.report.config.Config - Loading application.properties from resources/config/dev
+2022-05-31 13:30:01,484 [takealot] INFO  za.co.paygate.report.config.Config - Loading persistence.properties from resources/config/dev
+2022-05-31 13:30:01,484 [takealot] INFO  za.co.paygate.report.config.Config - Loading ${args.size} arg(s) into config
+2022-05-31 13:30:01,484 [takealot] INFO  Report - env:dev
+2022-05-31 13:30:01,754 [takealot] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [
+	name: paymentReport
+	...]
+2022-05-31 13:30:01,853 [takealot] INFO  org.hibernate.Version - HHH000412: Hibernate Core {5.2.4.Final}
+2022-05-31 13:30:01,853 [takealot] INFO  org.hibernate.cfg.Environment - HHH000206: hibernate.properties not found
+2022-05-31 13:30:01,853 [takealot] INFO  org.hibernate.cfg.Environment - HHH000021: Bytecode provider name : javassist
+2022-05-31 13:32:45,423 [takealot] INFO  za.co.paygate.report.config.Config - Loading application.properties from resources/config/dev
+2022-05-31 13:32:45,426 [takealot] INFO  za.co.paygate.report.config.Config - Loading persistence.properties from resources/config/dev
+2022-05-31 13:32:45,426 [takealot] INFO  za.co.paygate.report.config.Config - Loading ${args.size} arg(s) into config
+2022-05-31 13:32:45,426 [takealot] INFO  Report - env:dev
+2022-05-31 13:32:45,638 [takealot] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [
+	name: paymentReport
+	...]
+2022-05-31 13:32:45,727 [takealot] INFO  org.hibernate.Version - HHH000412: Hibernate Core {5.2.4.Final}
+2022-05-31 13:32:45,729 [takealot] INFO  org.hibernate.cfg.Environment - HHH000206: hibernate.properties not found
+2022-05-31 13:32:45,729 [takealot] INFO  org.hibernate.cfg.Environment - HHH000021: Bytecode provider name : javassist
+2022-05-31 13:33:33,319 [takealot] INFO  za.co.paygate.report.config.Config - Loading application.properties from resources/config/dev
+2022-05-31 13:33:33,319 [takealot] INFO  za.co.paygate.report.config.Config - Loading persistence.properties from resources/config/dev
+2022-05-31 13:33:33,319 [takealot] INFO  za.co.paygate.report.config.Config - Loading ${args.size} arg(s) into config
+2022-05-31 13:33:33,319 [takealot] INFO  Report - env:dev
+2022-05-31 13:33:33,582 [takealot] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [
+	name: paymentReport
+	...]
+2022-05-31 13:33:33,698 [takealot] INFO  org.hibernate.Version - HHH000412: Hibernate Core {5.2.4.Final}
+2022-05-31 13:33:33,698 [takealot] INFO  org.hibernate.cfg.Environment - HHH000206: hibernate.properties not found
+2022-05-31 13:33:33,698 [takealot] INFO  org.hibernate.cfg.Environment - HHH000021: Bytecode provider name : javassist
+2022-05-31 13:38:38,754 [takealot] INFO  za.co.paygate.report.config.Config - Loading application.properties from resources/config/dev
+2022-05-31 13:38:38,764 [takealot] INFO  za.co.paygate.report.config.Config - Loading persistence.properties from resources/config/dev
+2022-05-31 13:38:38,764 [takealot] INFO  za.co.paygate.report.config.Config - Loading ${args.size} arg(s) into config
+2022-05-31 13:38:38,764 [takealot] INFO  Report - env:dev
+2022-05-31 13:38:39,129 [takealot] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [
+	name: paymentReport
+	...]
+2022-05-31 13:38:39,312 [takealot] INFO  org.hibernate.Version - HHH000412: Hibernate Core {5.2.4.Final}
+2022-05-31 13:38:39,320 [takealot] INFO  org.hibernate.cfg.Environment - HHH000206: hibernate.properties not found
+2022-05-31 13:38:39,322 [takealot] INFO  org.hibernate.cfg.Environment - HHH000021: Bytecode provider name : javassist
+2022-05-31 13:39:26,702 [takealot] INFO  za.co.paygate.report.config.Config - Loading application.properties from resources/config/dev
+2022-05-31 13:39:26,702 [takealot] INFO  za.co.paygate.report.config.Config - Loading persistence.properties from resources/config/dev
+2022-05-31 13:39:26,702 [takealot] INFO  za.co.paygate.report.config.Config - Loading ${args.size} arg(s) into config
+2022-05-31 13:39:26,702 [takealot] INFO  Report - env:dev
+2022-05-31 13:39:26,950 [takealot] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [
+	name: paymentReport
+	...]
+2022-05-31 13:39:27,051 [takealot] INFO  org.hibernate.Version - HHH000412: Hibernate Core {5.2.4.Final}
+2022-05-31 13:39:27,051 [takealot] INFO  org.hibernate.cfg.Environment - HHH000206: hibernate.properties not found
+2022-05-31 13:39:27,051 [takealot] INFO  org.hibernate.cfg.Environment - HHH000021: Bytecode provider name : javassist
+2022-05-31 13:41:22,705 [takealot] INFO  za.co.paygate.report.config.Config - Loading application.properties from resources/config/dev
+2022-05-31 13:41:22,705 [takealot] INFO  za.co.paygate.report.config.Config - Loading persistence.properties from resources/config/dev
+2022-05-31 13:41:22,705 [takealot] INFO  za.co.paygate.report.config.Config - Loading ${args.size} arg(s) into config
+2022-05-31 13:41:22,705 [takealot] INFO  Report - env:dev
+2022-05-31 13:41:22,959 [takealot] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [
+	name: paymentReport
+	...]
+2022-05-31 13:41:23,060 [takealot] INFO  org.hibernate.Version - HHH000412: Hibernate Core {5.2.4.Final}
+2022-05-31 13:41:23,060 [takealot] INFO  org.hibernate.cfg.Environment - HHH000206: hibernate.properties not found
+2022-05-31 13:41:23,060 [takealot] INFO  org.hibernate.cfg.Environment - HHH000021: Bytecode provider name : javassist
+2022-05-31 13:41:23,160 [takealot] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2022-05-31 13:41:23,342 [takealot] INFO  org.hibernate.engine.jdbc.connections.internal.ConnectionProviderInitiator - HHH000130: Instantiating explicit connection provider: org.hibernate.connection.C3P0ConnectionProvider
+2022-05-31 13:42:15,317 [takealot] INFO  za.co.paygate.report.config.Config - Loading application.properties from resources/config/dev
+2022-05-31 13:42:15,353 [takealot] INFO  za.co.paygate.report.config.Config - Loading persistence.properties from resources/config/dev
+2022-05-31 13:42:15,368 [takealot] INFO  za.co.paygate.report.config.Config - Loading ${args.size} arg(s) into config
+2022-05-31 13:42:15,368 [takealot] INFO  Report - env:dev
+2022-05-31 13:42:18,905 [takealot] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [
+	name: paymentReport
+	...]
+2022-05-31 13:42:19,267 [takealot] INFO  org.hibernate.Version - HHH000412: Hibernate Core {5.2.4.Final}
+2022-05-31 13:42:19,279 [takealot] INFO  org.hibernate.cfg.Environment - HHH000206: hibernate.properties not found
+2022-05-31 13:42:19,279 [takealot] INFO  org.hibernate.cfg.Environment - HHH000021: Bytecode provider name : javassist
+2022-05-31 13:42:19,573 [takealot] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2022-05-31 13:42:20,107 [takealot] INFO  org.hibernate.engine.jdbc.connections.internal.ConnectionProviderInitiator - HHH000130: Instantiating explicit connection provider: org.hibernate.connection.C3P0ConnectionProvider
+2022-05-31 13:43:46,206 [takealot] INFO  za.co.paygate.report.config.Config - Loading application.properties from resources/config/dev
+2022-05-31 13:43:46,222 [takealot] INFO  za.co.paygate.report.config.Config - Loading persistence.properties from resources/config/dev
+2022-05-31 13:43:46,222 [takealot] INFO  za.co.paygate.report.config.Config - Loading ${args.size} arg(s) into config
+2022-05-31 13:43:46,222 [takealot] INFO  Report - env:dev
+2022-05-31 13:43:48,959 [takealot] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [
+	name: paymentReport
+	...]
+2022-05-31 13:43:49,279 [takealot] INFO  org.hibernate.Version - HHH000412: Hibernate Core {5.2.4.Final}
+2022-05-31 13:43:49,289 [takealot] INFO  org.hibernate.cfg.Environment - HHH000206: hibernate.properties not found
+2022-05-31 13:43:49,299 [takealot] INFO  org.hibernate.cfg.Environment - HHH000021: Bytecode provider name : javassist
+2022-05-31 13:43:49,592 [takealot] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2022-05-31 13:43:50,149 [takealot] INFO  org.hibernate.engine.jdbc.connections.internal.ConnectionProviderInitiator - HHH000130: Instantiating explicit connection provider: org.hibernate.connection.C3P0ConnectionProvider
+2022-05-31 13:44:06,672 [takealot] INFO  za.co.paygate.report.config.Config - Loading application.properties from resources/config/dev
+2022-05-31 13:44:06,680 [takealot] INFO  za.co.paygate.report.config.Config - Loading persistence.properties from resources/config/dev
+2022-05-31 13:44:06,682 [takealot] INFO  za.co.paygate.report.config.Config - Loading ${args.size} arg(s) into config
+2022-05-31 13:44:06,682 [takealot] INFO  Report - env:dev
+2022-05-31 13:45:29,059 [takealot] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [
+	name: paymentReport
+	...]
+2022-05-31 13:45:29,406 [takealot] INFO  org.hibernate.Version - HHH000412: Hibernate Core {5.2.4.Final}
+2022-05-31 13:45:29,424 [takealot] INFO  org.hibernate.cfg.Environment - HHH000206: hibernate.properties not found
+2022-05-31 13:45:29,426 [takealot] INFO  org.hibernate.cfg.Environment - HHH000021: Bytecode provider name : javassist
+2022-05-31 13:45:29,719 [takealot] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2022-05-31 13:45:30,296 [takealot] INFO  org.hibernate.engine.jdbc.connections.internal.ConnectionProviderInitiator - HHH000130: Instantiating explicit connection provider: org.hibernate.connection.C3P0ConnectionProvider
+2022-05-31 13:48:35,752 [takealot] INFO  za.co.paygate.report.config.Config - Loading application.properties from resources/config/dev
+2022-05-31 13:48:35,752 [takealot] INFO  za.co.paygate.report.config.Config - Loading persistence.properties from resources/config/dev
+2022-05-31 13:48:35,752 [takealot] INFO  za.co.paygate.report.config.Config - Loading ${args.size} arg(s) into config
+2022-05-31 13:48:35,752 [takealot] INFO  Report - env:dev
+2022-05-31 13:48:35,984 [takealot] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [
+	name: paymentReport
+	...]
+2022-05-31 13:48:36,122 [takealot] INFO  org.hibernate.Version - HHH000412: Hibernate Core {5.2.4.Final}
+2022-05-31 13:48:36,122 [takealot] INFO  org.hibernate.cfg.Environment - HHH000206: hibernate.properties not found
+2022-05-31 13:48:36,122 [takealot] INFO  org.hibernate.cfg.Environment - HHH000021: Bytecode provider name : javassist
+2022-05-31 13:48:36,184 [takealot] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2022-05-31 13:48:36,338 [takealot] INFO  org.hibernate.engine.jdbc.connections.internal.ConnectionProviderInitiator - HHH000130: Instantiating explicit connection provider: org.hibernate.connection.C3P0ConnectionProvider
+2022-05-31 13:49:23,903 [takealot] INFO  za.co.paygate.report.config.Config - Loading application.properties from resources/config/dev
+2022-05-31 13:49:23,913 [takealot] INFO  za.co.paygate.report.config.Config - Loading persistence.properties from resources/config/dev
+2022-05-31 13:49:23,913 [takealot] INFO  za.co.paygate.report.config.Config - Loading ${args.size} arg(s) into config
+2022-05-31 13:49:23,913 [takealot] INFO  Report - env:dev
+2022-05-31 13:49:24,136 [takealot] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [
+	name: paymentReport
+	...]
+2022-05-31 13:49:24,227 [takealot] INFO  org.hibernate.Version - HHH000412: Hibernate Core {5.2.4.Final}
+2022-05-31 13:49:24,227 [takealot] INFO  org.hibernate.cfg.Environment - HHH000206: hibernate.properties not found
+2022-05-31 13:49:24,227 [takealot] INFO  org.hibernate.cfg.Environment - HHH000021: Bytecode provider name : javassist
+2022-05-31 13:49:24,286 [takealot] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2022-05-31 13:49:24,419 [takealot] INFO  org.hibernate.engine.jdbc.connections.internal.ConnectionProviderInitiator - HHH000130: Instantiating explicit connection provider: org.hibernate.connection.C3P0ConnectionProvider
+2022-05-31 13:51:13,521 [takealot] INFO  za.co.paygate.report.config.Config - Loading application.properties from resources/config/dev
+2022-05-31 13:51:13,526 [takealot] INFO  za.co.paygate.report.config.Config - Loading persistence.properties from resources/config/dev
+2022-05-31 13:51:13,526 [takealot] INFO  za.co.paygate.report.config.Config - Loading ${args.size} arg(s) into config
+2022-05-31 13:51:13,526 [takealot] INFO  Report - env:dev
+2022-05-31 13:51:13,766 [takealot] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [
+	name: paymentReport
+	...]
+2022-05-31 13:51:13,881 [takealot] INFO  org.hibernate.Version - HHH000412: Hibernate Core {5.2.4.Final}
+2022-05-31 13:51:13,886 [takealot] INFO  org.hibernate.cfg.Environment - HHH000206: hibernate.properties not found
+2022-05-31 13:51:13,886 [takealot] INFO  org.hibernate.cfg.Environment - HHH000021: Bytecode provider name : javassist
+2022-05-31 13:51:13,981 [takealot] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2022-05-31 13:51:14,196 [takealot] INFO  org.hibernate.engine.jdbc.connections.internal.ConnectionProviderInitiator - HHH000130: Instantiating explicit connection provider: org.hibernate.connection.C3P0ConnectionProvider
+2022-05-31 13:52:20,979 [takealot] INFO  za.co.paygate.report.config.Config - Loading application.properties from resources/config/dev
+2022-05-31 13:52:20,979 [takealot] INFO  za.co.paygate.report.config.Config - Loading persistence.properties from resources/config/dev
+2022-05-31 13:52:20,979 [takealot] INFO  za.co.paygate.report.config.Config - Loading ${args.size} arg(s) into config
+2022-05-31 13:52:20,979 [takealot] INFO  Report - env:dev
+2022-05-31 13:52:54,970 [takealot] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [
+	name: paymentReport
+	...]
+2022-05-31 13:52:55,294 [takealot] INFO  org.hibernate.Version - HHH000412: Hibernate Core {5.2.4.Final}
+2022-05-31 13:52:55,304 [takealot] INFO  org.hibernate.cfg.Environment - HHH000206: hibernate.properties not found
+2022-05-31 13:52:55,312 [takealot] INFO  org.hibernate.cfg.Environment - HHH000021: Bytecode provider name : javassist
+2022-05-31 13:52:55,616 [takealot] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2022-05-31 13:53:56,853 [takealot] INFO  org.hibernate.engine.jdbc.connections.internal.ConnectionProviderInitiator - HHH000130: Instantiating explicit connection provider: org.hibernate.connection.C3P0ConnectionProvider
+2022-05-31 13:55:14,317 [takealot] INFO  za.co.paygate.report.config.Config - Loading application.properties from resources/config/dev
+2022-05-31 13:55:14,325 [takealot] INFO  za.co.paygate.report.config.Config - Loading persistence.properties from resources/config/dev
+2022-05-31 13:55:14,327 [takealot] INFO  za.co.paygate.report.config.Config - Loading ${args.size} arg(s) into config
+2022-05-31 13:55:14,327 [takealot] INFO  Report - env:dev
+2022-05-31 13:55:14,570 [takealot] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [
+	name: paymentReport
+	...]
+2022-05-31 13:55:14,682 [takealot] INFO  org.hibernate.Version - HHH000412: Hibernate Core {5.2.4.Final}
+2022-05-31 13:55:14,682 [takealot] INFO  org.hibernate.cfg.Environment - HHH000206: hibernate.properties not found
+2022-05-31 13:55:14,682 [takealot] INFO  org.hibernate.cfg.Environment - HHH000021: Bytecode provider name : javassist
+2022-05-31 13:55:14,743 [takealot] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2022-05-31 13:55:14,934 [takealot] INFO  org.hibernate.engine.jdbc.connections.internal.ConnectionProviderInitiator - HHH000130: Instantiating explicit connection provider: org.hibernate.connection.C3P0ConnectionProvider
+2022-05-31 14:08:19,623 [takealot] INFO  za.co.paygate.report.config.Config - Loading application.properties from resources/config/dev
+2022-05-31 14:08:19,623 [takealot] INFO  za.co.paygate.report.config.Config - Loading persistence.properties from resources/config/dev
+2022-05-31 14:08:19,623 [takealot] INFO  za.co.paygate.report.config.Config - Loading ${args.size} arg(s) into config
+2022-05-31 14:08:19,623 [takealot] INFO  Report - env:dev
+2022-05-31 14:08:19,839 [takealot] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [
+	name: paymentReport
+	...]
+2022-05-31 14:08:19,924 [takealot] INFO  org.hibernate.Version - HHH000412: Hibernate Core {5.2.4.Final}
+2022-05-31 14:08:19,924 [takealot] INFO  org.hibernate.cfg.Environment - HHH000206: hibernate.properties not found
+2022-05-31 14:08:19,924 [takealot] INFO  org.hibernate.cfg.Environment - HHH000021: Bytecode provider name : javassist
+2022-05-31 14:08:19,987 [takealot] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2022-05-31 14:08:20,124 [takealot] INFO  org.hibernate.engine.jdbc.connections.internal.ConnectionProviderInitiator - HHH000130: Instantiating explicit connection provider: org.hibernate.connection.C3P0ConnectionProvider
+2022-05-31 14:09:02,438 [takealot] INFO  za.co.paygate.report.config.Config - Loading application.properties from resources/config/dev
+2022-05-31 14:09:02,453 [takealot] INFO  za.co.paygate.report.config.Config - Loading persistence.properties from resources/config/dev
+2022-05-31 14:09:02,453 [takealot] INFO  za.co.paygate.report.config.Config - Loading ${args.size} arg(s) into config
+2022-05-31 14:09:02,453 [takealot] INFO  Report - env:dev
+2022-05-31 14:09:02,676 [takealot] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [
+	name: paymentReport
+	...]
+2022-05-31 14:09:02,776 [takealot] INFO  org.hibernate.Version - HHH000412: Hibernate Core {5.2.4.Final}
+2022-05-31 14:09:02,776 [takealot] INFO  org.hibernate.cfg.Environment - HHH000206: hibernate.properties not found
+2022-05-31 14:09:02,776 [takealot] INFO  org.hibernate.cfg.Environment - HHH000021: Bytecode provider name : javassist
+2022-05-31 14:09:02,839 [takealot] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2022-05-31 14:09:03,019 [takealot] INFO  org.hibernate.engine.jdbc.connections.internal.ConnectionProviderInitiator - HHH000130: Instantiating explicit connection provider: org.hibernate.connection.C3P0ConnectionProvider
+2022-05-31 14:09:58,151 [takealot] INFO  za.co.paygate.report.config.Config - Loading application.properties from resources/config/dev
+2022-05-31 14:09:58,153 [takealot] INFO  za.co.paygate.report.config.Config - Loading persistence.properties from resources/config/dev
+2022-05-31 14:09:58,153 [takealot] INFO  za.co.paygate.report.config.Config - Loading ${args.size} arg(s) into config
+2022-05-31 14:09:58,153 [takealot] INFO  Report - env:dev
+2022-05-31 14:09:58,396 [takealot] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [
+	name: paymentReport
+	...]
+2022-05-31 14:09:58,507 [takealot] INFO  org.hibernate.Version - HHH000412: Hibernate Core {5.2.4.Final}
+2022-05-31 14:09:58,516 [takealot] INFO  org.hibernate.cfg.Environment - HHH000206: hibernate.properties not found
+2022-05-31 14:09:58,518 [takealot] INFO  org.hibernate.cfg.Environment - HHH000021: Bytecode provider name : javassist
+2022-05-31 14:09:58,587 [takealot] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2022-05-31 14:09:58,731 [takealot] INFO  org.hibernate.engine.jdbc.connections.internal.ConnectionProviderInitiator - HHH000130: Instantiating explicit connection provider: org.hibernate.connection.C3P0ConnectionProvider
+2022-05-31 14:10:27,470 [takealot] INFO  za.co.paygate.report.config.Config - Loading application.properties from resources/config/dev
+2022-05-31 14:10:27,470 [takealot] INFO  za.co.paygate.report.config.Config - Loading persistence.properties from resources/config/dev
+2022-05-31 14:10:27,470 [takealot] INFO  za.co.paygate.report.config.Config - Loading ${args.size} arg(s) into config
+2022-05-31 14:10:27,470 [takealot] INFO  Report - env:dev
+2022-05-31 14:10:27,717 [takealot] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [
+	name: paymentReport
+	...]
+2022-05-31 14:10:27,817 [takealot] INFO  org.hibernate.Version - HHH000412: Hibernate Core {5.2.4.Final}
+2022-05-31 14:10:27,817 [takealot] INFO  org.hibernate.cfg.Environment - HHH000206: hibernate.properties not found
+2022-05-31 14:10:27,817 [takealot] INFO  org.hibernate.cfg.Environment - HHH000021: Bytecode provider name : javassist
+2022-05-31 14:10:27,871 [takealot] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2022-05-31 14:10:28,033 [takealot] INFO  org.hibernate.engine.jdbc.connections.internal.ConnectionProviderInitiator - HHH000130: Instantiating explicit connection provider: org.hibernate.connection.C3P0ConnectionProvider
+2022-05-31 14:18:51,691 [takealot] INFO  za.co.paygate.report.config.Config - Loading application.properties from resources/config/dev
+2022-05-31 14:18:51,694 [takealot] INFO  za.co.paygate.report.config.Config - Loading persistence.properties from resources/config/dev
+2022-05-31 14:18:51,695 [takealot] INFO  za.co.paygate.report.config.Config - Loading ${args.size} arg(s) into config
+2022-05-31 14:18:51,695 [takealot] INFO  Report - env:dev
+2022-05-31 14:18:51,884 [takealot] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [
+	name: paymentReport
+	...]
+2022-05-31 14:18:52,005 [takealot] INFO  org.hibernate.Version - HHH000412: Hibernate Core {5.2.4.Final}
+2022-05-31 14:18:52,007 [takealot] INFO  org.hibernate.cfg.Environment - HHH000206: hibernate.properties not found
+2022-05-31 14:18:52,008 [takealot] INFO  org.hibernate.cfg.Environment - HHH000021: Bytecode provider name : javassist
+2022-05-31 14:18:52,056 [takealot] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2022-05-31 14:18:52,172 [takealot] INFO  org.hibernate.engine.jdbc.connections.internal.ConnectionProviderInitiator - HHH000130: Instantiating explicit connection provider: org.hibernate.connection.C3P0ConnectionProvider
+2022-05-31 14:22:49,104 [takealot] INFO  za.co.paygate.report.config.Config - Loading application.properties from resources/config/dev
+2022-05-31 14:22:49,106 [takealot] INFO  za.co.paygate.report.config.Config - Loading persistence.properties from resources/config/dev
+2022-05-31 14:22:49,108 [takealot] INFO  za.co.paygate.report.config.Config - Loading ${args.size} arg(s) into config
+2022-05-31 14:22:49,108 [takealot] INFO  Report - env:dev
+2022-05-31 14:22:49,284 [takealot] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [
+	name: paymentReport
+	...]
+2022-05-31 14:22:49,370 [takealot] INFO  org.hibernate.Version - HHH000412: Hibernate Core {5.2.4.Final}
+2022-05-31 14:22:49,372 [takealot] INFO  org.hibernate.cfg.Environment - HHH000206: hibernate.properties not found
+2022-05-31 14:22:49,373 [takealot] INFO  org.hibernate.cfg.Environment - HHH000021: Bytecode provider name : javassist
+2022-05-31 14:22:49,443 [takealot] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2022-05-31 14:22:49,588 [takealot] INFO  org.hibernate.engine.jdbc.connections.internal.ConnectionProviderInitiator - HHH000130: Instantiating explicit connection provider: org.hibernate.connection.C3P0ConnectionProvider
+2022-05-31 14:23:07,780 [takealot] INFO  za.co.paygate.report.config.Config - Loading application.properties from resources/config/dev
+2022-05-31 14:23:07,786 [takealot] INFO  za.co.paygate.report.config.Config - Loading persistence.properties from resources/config/dev
+2022-05-31 14:23:07,788 [takealot] INFO  za.co.paygate.report.config.Config - Loading ${args.size} arg(s) into config
+2022-05-31 14:23:07,789 [takealot] INFO  Report - env:dev
+2022-05-31 14:23:07,974 [takealot] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [
+	name: paymentReport
+	...]
+2022-05-31 14:23:08,053 [takealot] INFO  org.hibernate.Version - HHH000412: Hibernate Core {5.2.4.Final}
+2022-05-31 14:23:08,054 [takealot] INFO  org.hibernate.cfg.Environment - HHH000206: hibernate.properties not found
+2022-05-31 14:23:08,056 [takealot] INFO  org.hibernate.cfg.Environment - HHH000021: Bytecode provider name : javassist
+2022-05-31 14:23:08,105 [takealot] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2022-05-31 14:23:08,239 [takealot] INFO  org.hibernate.engine.jdbc.connections.internal.ConnectionProviderInitiator - HHH000130: Instantiating explicit connection provider: org.hibernate.connection.C3P0ConnectionProvider
+2022-05-31 14:29:20,587 [takealot] INFO  za.co.paygate.report.config.Config - Loading application.properties from resources/config/dev
+2022-05-31 14:29:20,587 [takealot] INFO  za.co.paygate.report.config.Config - Loading persistence.properties from resources/config/dev
+2022-05-31 14:29:20,587 [takealot] INFO  za.co.paygate.report.config.Config - Loading ${args.size} arg(s) into config
+2022-05-31 14:29:20,587 [takealot] INFO  Report - env:dev
+2022-05-31 14:29:20,866 [takealot] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [
+	name: paymentReport
+	...]
+2022-05-31 14:29:20,966 [takealot] INFO  org.hibernate.Version - HHH000412: Hibernate Core {5.2.4.Final}
+2022-05-31 14:29:20,966 [takealot] INFO  org.hibernate.cfg.Environment - HHH000206: hibernate.properties not found
+2022-05-31 14:29:20,966 [takealot] INFO  org.hibernate.cfg.Environment - HHH000021: Bytecode provider name : javassist
+2022-05-31 14:29:21,035 [takealot] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2022-05-31 14:29:21,204 [takealot] INFO  org.hibernate.engine.jdbc.connections.internal.ConnectionProviderInitiator - HHH000130: Instantiating explicit connection provider: org.hibernate.connection.C3P0ConnectionProvider
+2022-05-31 14:31:40,910 [takealot] INFO  za.co.paygate.report.config.Config - Loading application.properties from resources/config/dev
+2022-05-31 14:31:40,926 [takealot] INFO  za.co.paygate.report.config.Config - Loading persistence.properties from resources/config/dev
+2022-05-31 14:31:40,926 [takealot] INFO  za.co.paygate.report.config.Config - Loading ${args.size} arg(s) into config
+2022-05-31 14:31:40,926 [takealot] INFO  Report - env:dev
+2022-05-31 14:31:41,157 [takealot] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [
+	name: paymentReport
+	...]
+2022-05-31 14:31:41,258 [takealot] INFO  org.hibernate.Version - HHH000412: Hibernate Core {5.2.4.Final}
+2022-05-31 14:31:41,258 [takealot] INFO  org.hibernate.cfg.Environment - HHH000206: hibernate.properties not found
+2022-05-31 14:31:41,258 [takealot] INFO  org.hibernate.cfg.Environment - HHH000021: Bytecode provider name : javassist
+2022-05-31 14:31:41,311 [takealot] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2022-05-31 14:31:41,474 [takealot] INFO  org.hibernate.engine.jdbc.connections.internal.ConnectionProviderInitiator - HHH000130: Instantiating explicit connection provider: org.hibernate.connection.C3P0ConnectionProvider
+2022-05-31 14:35:56,738 [takealot] INFO  za.co.paygate.report.config.Config - Loading application.properties from resources/config/dev
+2022-05-31 14:35:56,738 [takealot] INFO  za.co.paygate.report.config.Config - Loading persistence.properties from resources/config/dev
+2022-05-31 14:35:56,738 [takealot] INFO  za.co.paygate.report.config.Config - Loading ${args.size} arg(s) into config
+2022-05-31 14:35:56,738 [takealot] INFO  Report - env:dev
+2022-05-31 14:35:57,007 [takealot] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [
+	name: paymentReport
+	...]
+2022-05-31 14:35:57,139 [takealot] INFO  org.hibernate.Version - HHH000412: Hibernate Core {5.2.4.Final}
+2022-05-31 14:35:57,139 [takealot] INFO  org.hibernate.cfg.Environment - HHH000206: hibernate.properties not found
+2022-05-31 14:35:57,139 [takealot] INFO  org.hibernate.cfg.Environment - HHH000021: Bytecode provider name : javassist
+2022-05-31 14:35:57,194 [takealot] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2022-05-31 14:35:57,384 [takealot] INFO  org.hibernate.engine.jdbc.connections.internal.ConnectionProviderInitiator - HHH000130: Instantiating explicit connection provider: org.hibernate.connection.C3P0ConnectionProvider
+2022-05-31 14:50:11,199 [takealot] INFO  za.co.paygate.report.config.Config - Loading application.properties from resources/config/dev
+2022-05-31 14:50:11,199 [takealot] INFO  za.co.paygate.report.config.Config - Loading persistence.properties from resources/config/dev
+2022-05-31 14:50:11,199 [takealot] INFO  za.co.paygate.report.config.Config - Loading ${args.size} arg(s) into config
+2022-05-31 14:50:11,199 [takealot] INFO  Report - env:dev
+2022-05-31 14:50:11,514 [takealot] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [
+	name: paymentReport
+	...]
+2022-05-31 14:50:11,630 [takealot] INFO  org.hibernate.Version - HHH000412: Hibernate Core {5.2.4.Final}
+2022-05-31 14:50:11,630 [takealot] INFO  org.hibernate.cfg.Environment - HHH000206: hibernate.properties not found
+2022-05-31 14:50:11,630 [takealot] INFO  org.hibernate.cfg.Environment - HHH000021: Bytecode provider name : javassist
+2022-05-31 14:50:11,699 [takealot] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2022-05-31 14:50:11,885 [takealot] INFO  org.hibernate.engine.jdbc.connections.internal.ConnectionProviderInitiator - HHH000130: Instantiating explicit connection provider: org.hibernate.connection.C3P0ConnectionProvider
+2022-05-31 14:50:29,618 [takealot] INFO  za.co.paygate.report.config.Config - Loading application.properties from resources/config/dev
+2022-05-31 14:50:29,618 [takealot] INFO  za.co.paygate.report.config.Config - Loading persistence.properties from resources/config/dev
+2022-05-31 14:50:29,626 [takealot] INFO  za.co.paygate.report.config.Config - Loading ${args.size} arg(s) into config
+2022-05-31 14:50:29,626 [takealot] INFO  Report - env:dev
+2022-05-31 14:50:29,882 [takealot] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [
+	name: paymentReport
+	...]
+2022-05-31 14:50:30,003 [takealot] INFO  org.hibernate.Version - HHH000412: Hibernate Core {5.2.4.Final}
+2022-05-31 14:50:30,003 [takealot] INFO  org.hibernate.cfg.Environment - HHH000206: hibernate.properties not found
+2022-05-31 14:50:30,003 [takealot] INFO  org.hibernate.cfg.Environment - HHH000021: Bytecode provider name : javassist
+2022-05-31 14:50:30,064 [takealot] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2022-05-31 14:50:30,206 [takealot] INFO  org.hibernate.engine.jdbc.connections.internal.ConnectionProviderInitiator - HHH000130: Instantiating explicit connection provider: org.hibernate.connection.C3P0ConnectionProvider
+2022-05-31 14:53:42,829 [takealot] INFO  za.co.paygate.report.config.Config - Loading application.properties from resources/config/dev
+2022-05-31 14:53:42,838 [takealot] INFO  za.co.paygate.report.config.Config - Loading persistence.properties from resources/config/dev
+2022-05-31 14:53:42,840 [takealot] INFO  za.co.paygate.report.config.Config - Loading ${args.size} arg(s) into config
+2022-05-31 14:53:42,840 [takealot] INFO  Report - env:dev
+2022-05-31 14:53:43,073 [takealot] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [
+	name: paymentReport
+	...]
+2022-05-31 14:53:43,182 [takealot] INFO  org.hibernate.Version - HHH000412: Hibernate Core {5.2.4.Final}
+2022-05-31 14:53:43,184 [takealot] INFO  org.hibernate.cfg.Environment - HHH000206: hibernate.properties not found
+2022-05-31 14:53:43,184 [takealot] INFO  org.hibernate.cfg.Environment - HHH000021: Bytecode provider name : javassist
+2022-05-31 14:53:43,245 [takealot] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2022-05-31 14:53:43,478 [takealot] INFO  org.hibernate.engine.jdbc.connections.internal.ConnectionProviderInitiator - HHH000130: Instantiating explicit connection provider: org.hibernate.connection.C3P0ConnectionProvider
+2022-05-31 14:54:31,491 [takealot] INFO  za.co.paygate.report.config.Config - Loading application.properties from resources/config/dev
+2022-05-31 14:54:31,491 [takealot] INFO  za.co.paygate.report.config.Config - Loading persistence.properties from resources/config/dev
+2022-05-31 14:54:31,506 [takealot] INFO  za.co.paygate.report.config.Config - Loading ${args.size} arg(s) into config
+2022-05-31 14:54:31,506 [takealot] INFO  Report - env:dev
+2022-05-31 14:54:31,723 [takealot] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [
+	name: paymentReport
+	...]
+2022-05-31 14:54:31,838 [takealot] INFO  org.hibernate.Version - HHH000412: Hibernate Core {5.2.4.Final}
+2022-05-31 14:54:31,838 [takealot] INFO  org.hibernate.cfg.Environment - HHH000206: hibernate.properties not found
+2022-05-31 14:54:31,838 [takealot] INFO  org.hibernate.cfg.Environment - HHH000021: Bytecode provider name : javassist
+2022-05-31 14:54:31,892 [takealot] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2022-05-31 14:54:32,055 [takealot] WARN  org.hibernate.orm.connections.pooling - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2022-05-31 14:54:32,070 [takealot] INFO  org.hibernate.orm.connections.pooling - HHH10001005: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/payment_report]
+2022-05-31 14:54:32,070 [takealot] INFO  org.hibernate.orm.connections.pooling - HHH10001001: Connection properties: {password=****, user=root}
+2022-05-31 14:54:32,070 [takealot] INFO  org.hibernate.orm.connections.pooling - HHH10001003: Autocommit mode: false
+2022-05-31 14:54:32,070 [takealot] INFO  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl - HHH000115: Hibernate connection pool size: 20 (min=1)
+2022-05-31 14:54:33,259 [takealot] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQLInnoDBDialect
+2022-05-31 14:54:33,781 [takealot] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 5.2.4.Final
+2022-05-31 14:54:34,224 [takealot] INFO  org.hibernate.orm.connections.access - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@7a2b1eb4] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2022-05-31 14:54:34,253 [takealot] WARN  org.hibernate.tool.schema.internal.ExceptionHandlerLoggedImpl - GenerationTarget encountered exception accepting command : Error executing DDL via JDBC Statement
+org.hibernate.tool.schema.spi.CommandAcceptanceException: Error executing DDL via JDBC Statement
+	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:67)
+	at org.hibernate.tool.schema.internal.SchemaCreatorImpl.applySqlString(SchemaCreatorImpl.java:439)
+	at org.hibernate.tool.schema.internal.SchemaCreatorImpl.applySqlStrings(SchemaCreatorImpl.java:424)
+	at org.hibernate.tool.schema.internal.SchemaCreatorImpl.createFromMetadata(SchemaCreatorImpl.java:315)
+	at org.hibernate.tool.schema.internal.SchemaCreatorImpl.performCreation(SchemaCreatorImpl.java:166)
+	at org.hibernate.tool.schema.internal.SchemaCreatorImpl.doCreation(SchemaCreatorImpl.java:135)
+	at org.hibernate.tool.schema.internal.SchemaCreatorImpl.doCreation(SchemaCreatorImpl.java:121)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.performDatabaseAction(SchemaManagementToolCoordinator.java:123)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.process(SchemaManagementToolCoordinator.java:66)
+	at org.hibernate.internal.SessionFactoryImpl.<init>(SessionFactoryImpl.java:309)
+	at org.hibernate.boot.internal.SessionFactoryBuilderImpl.build(SessionFactoryBuilderImpl.java:445)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:877)
+	at org.hibernate.jpa.HibernatePersistenceProvider.createEntityManagerFactory(HibernatePersistenceProvider.java:58)
+	at javax.persistence.Persistence.createEntityManagerFactory(Persistence.java:55)
+	at javax.persistence.Persistence.createEntityManagerFactory(Persistence.java:39)
+	at Report.main(Report.java:28)
+Caused by: java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'DESC text not null, NAME varchar(225) not null, PRICE integer not null, primary ' at line 1
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:120)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:97)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.StatementImpl.executeInternal(StatementImpl.java:782)
+	at com.mysql.cj.jdbc.StatementImpl.execute(StatementImpl.java:666)
+	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:54)
+	... 15 more
+2022-05-31 14:54:34,255 [takealot] INFO  org.hibernate.tool.schema.internal.SchemaCreatorImpl - HHH000476: Executing import script 'org.hibernate.tool.schema.internal.exec.ScriptSourceInputNonExistentImpl@75fc1992'
+2022-05-31 14:54:34,385 [takealot] INFO  org.hibernate.hql.internal.QueryTranslatorFactoryInitiator - HHH000397: Using ASTQueryTranslatorFactory
+2022-05-31 14:54:34,506 [takealot] WARN  org.hibernate.engine.jdbc.spi.SqlExceptionHelper - SQL Error: 1146, SQLState: 42S02
+2022-05-31 14:54:34,506 [takealot] ERROR org.hibernate.engine.jdbc.spi.SqlExceptionHelper - Table 'payment_report.zzzz_product' doesn't exist
+2022-05-31 14:57:01,475 [takealot] INFO  za.co.paygate.report.config.Config - Loading application.properties from resources/config/dev
+2022-05-31 14:57:01,484 [takealot] INFO  za.co.paygate.report.config.Config - Loading persistence.properties from resources/config/dev
+2022-05-31 14:57:01,490 [takealot] INFO  za.co.paygate.report.config.Config - Loading ${args.size} arg(s) into config
+2022-05-31 14:57:01,490 [takealot] INFO  Report - env:dev
+2022-05-31 14:57:04,471 [takealot] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [
+	name: paymentReport
+	...]
+2022-05-31 14:57:05,304 [takealot] INFO  org.hibernate.Version - HHH000412: Hibernate Core {5.2.4.Final}
+2022-05-31 14:57:05,327 [takealot] INFO  org.hibernate.cfg.Environment - HHH000206: hibernate.properties not found
+2022-05-31 14:57:05,340 [takealot] INFO  org.hibernate.cfg.Environment - HHH000021: Bytecode provider name : javassist
+2022-05-31 14:57:05,980 [takealot] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2022-05-31 14:57:07,102 [takealot] WARN  org.hibernate.orm.connections.pooling - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2022-05-31 14:57:07,133 [takealot] INFO  org.hibernate.orm.connections.pooling - HHH10001005: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/payment_report]
+2022-05-31 14:57:07,134 [takealot] INFO  org.hibernate.orm.connections.pooling - HHH10001001: Connection properties: {password=****, user=root}
+2022-05-31 14:57:07,135 [takealot] INFO  org.hibernate.orm.connections.pooling - HHH10001003: Autocommit mode: false
+2022-05-31 14:57:07,152 [takealot] INFO  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl - HHH000115: Hibernate connection pool size: 20 (min=1)
+2022-05-31 14:57:11,793 [takealot] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQLInnoDBDialect
+2022-05-31 14:57:14,118 [takealot] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 5.2.4.Final
+2022-05-31 14:57:16,180 [takealot] INFO  org.hibernate.orm.connections.access - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@f288c14] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2022-05-31 14:57:16,227 [takealot] WARN  org.hibernate.tool.schema.internal.ExceptionHandlerLoggedImpl - GenerationTarget encountered exception accepting command : Error executing DDL via JDBC Statement
+org.hibernate.tool.schema.spi.CommandAcceptanceException: Error executing DDL via JDBC Statement
+	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:67)
+	at org.hibernate.tool.schema.internal.SchemaCreatorImpl.applySqlString(SchemaCreatorImpl.java:439)
+	at org.hibernate.tool.schema.internal.SchemaCreatorImpl.applySqlStrings(SchemaCreatorImpl.java:424)
+	at org.hibernate.tool.schema.internal.SchemaCreatorImpl.createFromMetadata(SchemaCreatorImpl.java:315)
+	at org.hibernate.tool.schema.internal.SchemaCreatorImpl.performCreation(SchemaCreatorImpl.java:166)
+	at org.hibernate.tool.schema.internal.SchemaCreatorImpl.doCreation(SchemaCreatorImpl.java:135)
+	at org.hibernate.tool.schema.internal.SchemaCreatorImpl.doCreation(SchemaCreatorImpl.java:121)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.performDatabaseAction(SchemaManagementToolCoordinator.java:123)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.process(SchemaManagementToolCoordinator.java:66)
+	at org.hibernate.internal.SessionFactoryImpl.<init>(SessionFactoryImpl.java:309)
+	at org.hibernate.boot.internal.SessionFactoryBuilderImpl.build(SessionFactoryBuilderImpl.java:445)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:877)
+	at org.hibernate.jpa.HibernatePersistenceProvider.createEntityManagerFactory(HibernatePersistenceProvider.java:58)
+	at javax.persistence.Persistence.createEntityManagerFactory(Persistence.java:55)
+	at javax.persistence.Persistence.createEntityManagerFactory(Persistence.java:39)
+	at Report.main(Report.java:28)
+Caused by: java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'DESC text not null, NAME varchar(225) not null, PRICE integer not null, primary ' at line 1
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:120)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:97)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.StatementImpl.executeInternal(StatementImpl.java:782)
+	at com.mysql.cj.jdbc.StatementImpl.execute(StatementImpl.java:666)
+	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:54)
+	... 15 more
+2022-05-31 14:57:16,259 [takealot] INFO  org.hibernate.tool.schema.internal.SchemaCreatorImpl - HHH000476: Executing import script 'org.hibernate.tool.schema.internal.exec.ScriptSourceInputNonExistentImpl@2a066689'
+2022-05-31 21:12:31,505 [takealot] INFO  org.hibernate.hql.internal.QueryTranslatorFactoryInitiator - HHH000397: Using ASTQueryTranslatorFactory
+2022-05-31 21:12:31,857 [takealot] WARN  org.hibernate.engine.jdbc.spi.SqlExceptionHelper - SQL Error: 1146, SQLState: 42S02
+2022-05-31 21:12:31,857 [takealot] ERROR org.hibernate.engine.jdbc.spi.SqlExceptionHelper - Table 'payment_report.zzzz_product' doesn't exist
+2022-05-31 21:25:46,546 [takealot] INFO  za.co.paygate.report.config.Config - Loading application.properties from resources/config/dev
+2022-05-31 21:25:46,546 [takealot] INFO  za.co.paygate.report.config.Config - Loading persistence.properties from resources/config/dev
+2022-05-31 21:25:46,546 [takealot] INFO  za.co.paygate.report.config.Config - Loading ${args.size} arg(s) into config
+2022-05-31 21:25:46,557 [takealot] INFO  Report - env:dev
+2022-05-31 21:25:46,845 [takealot] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [
+	name: paymentReport
+	...]
+2022-05-31 21:25:47,001 [takealot] INFO  org.hibernate.Version - HHH000412: Hibernate Core {5.2.4.Final}
+2022-05-31 21:25:47,001 [takealot] INFO  org.hibernate.cfg.Environment - HHH000206: hibernate.properties not found
+2022-05-31 21:25:47,001 [takealot] INFO  org.hibernate.cfg.Environment - HHH000021: Bytecode provider name : javassist
+2022-05-31 21:25:47,129 [takealot] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2022-05-31 21:25:47,296 [takealot] WARN  org.hibernate.orm.connections.pooling - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2022-05-31 21:25:47,305 [takealot] INFO  org.hibernate.orm.connections.pooling - HHH10001005: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/payment_report]
+2022-05-31 21:25:47,305 [takealot] INFO  org.hibernate.orm.connections.pooling - HHH10001001: Connection properties: {password=****, user=root}
+2022-05-31 21:25:47,307 [takealot] INFO  org.hibernate.orm.connections.pooling - HHH10001003: Autocommit mode: false
+2022-05-31 21:25:47,307 [takealot] INFO  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl - HHH000115: Hibernate connection pool size: 20 (min=1)
+2022-05-31 21:25:48,533 [takealot] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQLInnoDBDialect
+2022-05-31 21:25:49,045 [takealot] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 5.2.4.Final
+2022-05-31 21:25:49,384 [takealot] INFO  org.hibernate.orm.connections.access - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@7a2b1eb4] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2022-05-31 21:25:49,403 [takealot] WARN  org.hibernate.tool.schema.internal.ExceptionHandlerLoggedImpl - GenerationTarget encountered exception accepting command : Error executing DDL via JDBC Statement
+org.hibernate.tool.schema.spi.CommandAcceptanceException: Error executing DDL via JDBC Statement
+	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:67)
+	at org.hibernate.tool.schema.internal.SchemaCreatorImpl.applySqlString(SchemaCreatorImpl.java:439)
+	at org.hibernate.tool.schema.internal.SchemaCreatorImpl.applySqlStrings(SchemaCreatorImpl.java:424)
+	at org.hibernate.tool.schema.internal.SchemaCreatorImpl.createFromMetadata(SchemaCreatorImpl.java:315)
+	at org.hibernate.tool.schema.internal.SchemaCreatorImpl.performCreation(SchemaCreatorImpl.java:166)
+	at org.hibernate.tool.schema.internal.SchemaCreatorImpl.doCreation(SchemaCreatorImpl.java:135)
+	at org.hibernate.tool.schema.internal.SchemaCreatorImpl.doCreation(SchemaCreatorImpl.java:121)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.performDatabaseAction(SchemaManagementToolCoordinator.java:123)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.process(SchemaManagementToolCoordinator.java:66)
+	at org.hibernate.internal.SessionFactoryImpl.<init>(SessionFactoryImpl.java:309)
+	at org.hibernate.boot.internal.SessionFactoryBuilderImpl.build(SessionFactoryBuilderImpl.java:445)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:877)
+	at org.hibernate.jpa.HibernatePersistenceProvider.createEntityManagerFactory(HibernatePersistenceProvider.java:58)
+	at javax.persistence.Persistence.createEntityManagerFactory(Persistence.java:55)
+	at javax.persistence.Persistence.createEntityManagerFactory(Persistence.java:39)
+	at Report.main(Report.java:28)
+Caused by: java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'type=InnoDB' at line 1
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:120)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:97)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.StatementImpl.executeInternal(StatementImpl.java:782)
+	at com.mysql.cj.jdbc.StatementImpl.execute(StatementImpl.java:666)
+	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:54)
+	... 15 more
+2022-05-31 21:25:49,405 [takealot] INFO  org.hibernate.tool.schema.internal.SchemaCreatorImpl - HHH000476: Executing import script 'org.hibernate.tool.schema.internal.exec.ScriptSourceInputNonExistentImpl@75fc1992'
+2022-05-31 21:25:49,496 [takealot] INFO  org.hibernate.hql.internal.QueryTranslatorFactoryInitiator - HHH000397: Using ASTQueryTranslatorFactory
+2022-05-31 21:26:34,632 [takealot] INFO  za.co.paygate.report.config.Config - Loading application.properties from resources/config/dev
+2022-05-31 21:26:34,642 [takealot] INFO  za.co.paygate.report.config.Config - Loading persistence.properties from resources/config/dev
+2022-05-31 21:26:34,642 [takealot] INFO  za.co.paygate.report.config.Config - Loading ${args.size} arg(s) into config
+2022-05-31 21:26:34,642 [takealot] INFO  Report - env:dev
+2022-05-31 21:26:37,948 [takealot] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [
+	name: paymentReport
+	...]
+2022-05-31 21:26:38,060 [takealot] INFO  org.hibernate.Version - HHH000412: Hibernate Core {5.2.4.Final}
+2022-05-31 21:26:38,060 [takealot] INFO  org.hibernate.cfg.Environment - HHH000206: hibernate.properties not found
+2022-05-31 21:26:38,060 [takealot] INFO  org.hibernate.cfg.Environment - HHH000021: Bytecode provider name : javassist
+2022-05-31 21:26:38,122 [takealot] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2022-05-31 21:26:38,296 [takealot] WARN  org.hibernate.orm.connections.pooling - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2022-05-31 21:26:38,296 [takealot] INFO  org.hibernate.orm.connections.pooling - HHH10001005: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/payment_report]
+2022-05-31 21:26:38,296 [takealot] INFO  org.hibernate.orm.connections.pooling - HHH10001001: Connection properties: {password=****, user=root}
+2022-05-31 21:26:38,296 [takealot] INFO  org.hibernate.orm.connections.pooling - HHH10001003: Autocommit mode: false
+2022-05-31 21:26:38,311 [takealot] INFO  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl - HHH000115: Hibernate connection pool size: 20 (min=1)
+2022-05-31 21:26:39,531 [takealot] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQLInnoDBDialect
+2022-05-31 21:26:39,959 [takealot] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 5.2.4.Final
+2022-05-31 21:26:40,456 [takealot] INFO  org.hibernate.orm.connections.access - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@f288c14] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2022-05-31 21:26:40,486 [takealot] WARN  org.hibernate.tool.schema.internal.ExceptionHandlerLoggedImpl - GenerationTarget encountered exception accepting command : Error executing DDL via JDBC Statement
+org.hibernate.tool.schema.spi.CommandAcceptanceException: Error executing DDL via JDBC Statement
+	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:67)
+	at org.hibernate.tool.schema.internal.SchemaCreatorImpl.applySqlString(SchemaCreatorImpl.java:439)
+	at org.hibernate.tool.schema.internal.SchemaCreatorImpl.applySqlStrings(SchemaCreatorImpl.java:424)
+	at org.hibernate.tool.schema.internal.SchemaCreatorImpl.createFromMetadata(SchemaCreatorImpl.java:315)
+	at org.hibernate.tool.schema.internal.SchemaCreatorImpl.performCreation(SchemaCreatorImpl.java:166)
+	at org.hibernate.tool.schema.internal.SchemaCreatorImpl.doCreation(SchemaCreatorImpl.java:135)
+	at org.hibernate.tool.schema.internal.SchemaCreatorImpl.doCreation(SchemaCreatorImpl.java:121)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.performDatabaseAction(SchemaManagementToolCoordinator.java:123)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.process(SchemaManagementToolCoordinator.java:66)
+	at org.hibernate.internal.SessionFactoryImpl.<init>(SessionFactoryImpl.java:309)
+	at org.hibernate.boot.internal.SessionFactoryBuilderImpl.build(SessionFactoryBuilderImpl.java:445)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:877)
+	at org.hibernate.jpa.HibernatePersistenceProvider.createEntityManagerFactory(HibernatePersistenceProvider.java:58)
+	at javax.persistence.Persistence.createEntityManagerFactory(Persistence.java:55)
+	at javax.persistence.Persistence.createEntityManagerFactory(Persistence.java:39)
+	at Report.main(Report.java:28)
+Caused by: java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'type=InnoDB' at line 1
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:120)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:97)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.StatementImpl.executeInternal(StatementImpl.java:782)
+	at com.mysql.cj.jdbc.StatementImpl.execute(StatementImpl.java:666)
+	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:54)
+	... 15 more
+2022-05-31 21:26:40,492 [takealot] INFO  org.hibernate.tool.schema.internal.SchemaCreatorImpl - HHH000476: Executing import script 'org.hibernate.tool.schema.internal.exec.ScriptSourceInputNonExistentImpl@2a066689'
+2022-05-31 21:26:47,396 [takealot] INFO  org.hibernate.hql.internal.QueryTranslatorFactoryInitiator - HHH000397: Using ASTQueryTranslatorFactory

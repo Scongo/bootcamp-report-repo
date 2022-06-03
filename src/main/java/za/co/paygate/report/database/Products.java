@@ -3,7 +3,9 @@ package za.co.paygate.report.database;
 import javax.persistence.*;
 import javax.validation.constraints.NotNull;
 import java.util.Calendar;
+import java.util.HashSet;
 import java.util.List;
+import java.util.Set;
 
 /**
  * Created by AlecE on 6/15/2017.
@@ -17,7 +19,7 @@ public class Products {
 	@Column(name = "ID", columnDefinition = "int")
 	private Integer id;
 
-	@Column(name = "NAME", length = 225)
+	@Column(name = "PRODUCT_NAME")
 	@NotNull
 	private String name;
 
@@ -26,9 +28,12 @@ public class Products {
 	@NotNull
 	private Integer price;
 
-	@Column(name = "DESC", columnDefinition = "text")
+	@Column(name = "PRODUCT_DESC", columnDefinition = "text")
 	@NotNull
-	private Integer desc;
+	private String desc;
+
+	@OneToMany(mappedBy = "products")
+	Set<OrderItems> orderItems = new HashSet<>();
 
 	public Integer getId() {
 		return id;
@@ -57,18 +62,23 @@ public class Products {
 		return this;
 	}
 
-	public Integer getDesc() {
+	public String getDesc() {
 		return desc;
 	}
 
-	public Products setDesc(Integer desc) {
+	public Products setDesc(String desc) {
 		this.desc = desc;
 		return this;
 	}
 
-	public static List<Products> findProducts(EntityManager em) {
-		List<Products> results = em.createQuery("SELECT o FROM Products AS o", Products.class)
+	public static void saveProduct(EntityManager em, Products products) {
+		em.getTransaction().begin();
+		em.merge(products);
+		em.getTransaction().commit();
+	}
+	public static List<Products> getProducts(EntityManager em){
+		List<Products> productQuery = em.createQuery("from Products", Products.class)
 				.getResultList();
-		return results;
+		return productQuery;
 	}
 }
