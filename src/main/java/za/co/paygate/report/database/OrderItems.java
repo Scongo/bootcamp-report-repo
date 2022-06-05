@@ -17,11 +17,11 @@ public class OrderItems {
 	@Column(name = "ID", columnDefinition = "int")
 	private Integer id;
 
-	@ManyToOne
+	@ManyToOne(cascade = {CascadeType.ALL})
 	@JoinColumn(name = "PRODUCT_ID")
 	private Products products;
 
-	@ManyToOne
+	@ManyToOne(cascade = {CascadeType.ALL})
 	@JoinColumn(name = "ORDER_ID")
 	private Order order;
 

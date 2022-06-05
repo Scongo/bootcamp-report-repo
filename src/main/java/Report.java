@@ -9,6 +9,10 @@ import za.co.paygate.report.database.OrderItems;
 import za.co.paygate.report.database.OrderPayment;
 import za.co.paygate.report.database.Products;
 import za.co.paygate.report.pojos.ResponseItem;
+import za.co.paygate.report.repository.OrderItemsRepository;
+import za.co.paygate.report.repository.OrderPaymentRepository;
+import za.co.paygate.report.repository.OrderRepository;
+import za.co.paygate.report.repository.ProductsRepository;
 
 import javax.persistence.EntityManager;
 import javax.persistence.EntityManagerFactory;
@@ -17,6 +21,7 @@ import java.io.File;
 import java.io.IOException;
 import java.util.*;
 import java.util.concurrent.atomic.AtomicInteger;
+import java.util.stream.Collectors;
 
 /**
  * Created by AlecE on 6/15/2017.
@@ -32,7 +37,7 @@ public class Report {
 	public static Config config;
 
 	public static void main(String[] args) throws IOException {
-		System.out.println("Hello this is where you start. See C:\\Users\\AlecE\\bitbucket\\paygate-bootcamp\\bootcamp-report\\src\\main\\resources\\config\\dev\\persistence.properties for database config");
+
 		loadConfig(args);
 		ObjectMapper objectMapper = new ObjectMapper();
 		List<ResponseItem> responseItem = objectMapper.readValue(new File("data.json"), new TypeReference<List<ResponseItem>>(){});
@@ -50,7 +55,14 @@ public class Report {
 		Products products = new Products();
 		OrderPayment orderPayment = new OrderPayment();
 
+		OrderRepository orderRepository = new OrderRepository(em);
+		OrderPaymentRepository orderPaymentRepository = new OrderPaymentRepository(em);
+		ProductsRepository productsRepository = new ProductsRepository(em);
+		OrderItemsRepository orderItemsRepository = new OrderItemsRepository(em);
+
+
 		if(!(Order.getOrder(em).size() > 0)) {
+			//em.detach(order);
 			responseItem.forEach(responseItems -> {
 
 				order.setOrderNumber(responseItems.getOrderId());
@@ -59,18 +71,35 @@ public class Report {
 				order.setCreatedAt(new Date(responseItems.getCreated() * 1000));
 
 				if (responseItems.getItems() != null || responseItems.getItems().size() > 0) {
+					//em.detach(products);
+					//Populate product table with distinct products
 					responseItems.getItems().forEach(item -> {
-						products.setName(item.getProduct().getName());
-						products.setPrice(item.getProduct().getPrice());
-						products.setDesc(item.getProduct().getDesc());
-						orderItems.setProducts(products);
-						orderItemsList.add(orderItems);
-						Products.saveProduct(em, products);
-					});
-					order.setOrderItems(new HashSet<OrderItems>(orderItemsList));
-				}
-				int[] runCount = {0};
+						if (item.getProduct() != null){
+						//Products.saveProduct(em, products);
+							if(productsRepository.findByName(item.getProduct().getName()).size() <= 0 ){
+								products.setName(item.getProduct().getName());
+								products.setPrice(item.getProduct().getPrice());
+								products.setDesc(item.getProduct().getDesc());
+//								orderItems.setOrder(order);
+//								orderItems.setProducts(products);
+//								products.setOrderItems(new HashSet<OrderItems>(orderItemsList));
+//								orderItemsList.add(orderItems);
+								productsRepository.save(products);
+							}
 
+					}
+					});
+
+
+				}
+				orderItems.setProducts(products);
+				orderItems.setOrder(order);
+				orderItemsList.add(orderItems);
+
+				orderItemsRepository.save(orderItems);
+
+
+				int[] runCount = {0};
 				if (responseItems.getPayments() != null) {
 					responseItems.getPayments().forEach(payment -> {
 						orderPayment.setStatus(Integer.parseInt(payment.getStatus()));
@@ -84,11 +113,39 @@ public class Report {
 					order.setStatus(Integer.parseInt(responseItems.getPayments().get(runCount[0] - 1).getStatus()));
 					order.setOrderPayments(new HashSet<OrderPayment>(orderPaymentList));
 				}
-				Order.saveOrder(em, order);
+
+				order.setOrderItems(new HashSet<OrderItems>(orderItemsList));
+				orderRepository.save(order);
+
+
+				orderItemsList.add(orderItems);
 			});
 		}
-		em.detach(order);
-		//List<Products> products =  Products.findProducts(em);
+
+		// ORDER_ID, DESC, AMOUNT, NUMBER_OF_ITEMS, NUMBER_OF_PAYMENTS, PAYMENT_STATUS, AMOUNT
+		List<Order> orderList = orderRepository.findAll();
+		System.out.println("Orders payed for :");
+		orderList.forEach(order1 -> {
+			if(order1.getStatus() != null){
+				if(order1.getStatus().equals(1)){
+					order1.getOrderPayments().forEach(pay ->{
+						pay.getStatusDesc();
+						System.out.println(order1.getId() +" , "+ order1.getDesc()+" , "+
+								order1.getAmount()+" , "+ pay.getStatusDesc());
+					});
+				}
+			}
+		});
+
+		System.out.println("===============================");
+		System.out.println("Orders has no payment attempted:");
+		orderList.forEach(noOrder -> {
+			if(noOrder.getStatus() == null){
+			System.out.println(noOrder.getId() +" , "+ noOrder.getDesc()+" , "+
+					noOrder.getAmount()+" , "+ noOrder.getStatus());
+
+			}
+		});
 
 	}
 

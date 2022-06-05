@@ -37,10 +37,10 @@ public class Order {
 	@Temporal(TemporalType.TIMESTAMP)
 	private Date createdAt;
 
-	@OneToMany(mappedBy = "order")
+	@OneToMany(mappedBy = "order", cascade = CascadeType.ALL)
 	Set<OrderPayment> orderPayments = new HashSet<>();
 
-	@OneToMany(mappedBy = "order")
+	@OneToMany(mappedBy = "order", cascade = CascadeType.ALL)
 	Set<OrderItems> orderItems = new HashSet<>();
 
 	public Set<OrderPayment> getOrderPayments() {
