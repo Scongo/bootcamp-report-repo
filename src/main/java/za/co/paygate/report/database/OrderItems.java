@@ -1,9 +1,6 @@
 package za.co.paygate.report.database;
 
 import javax.persistence.*;
-import javax.validation.constraints.NotNull;
-import java.util.Calendar;
-import java.util.List;
 
 /**
  * Created by AlecE on 6/15/2017.

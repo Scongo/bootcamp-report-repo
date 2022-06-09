@@ -40,8 +40,11 @@ public class Order {
 	@OneToMany(mappedBy = "order", cascade = CascadeType.ALL)
 	Set<OrderPayment> orderPayments = new HashSet<>();
 
-	@OneToMany(mappedBy = "order", cascade = CascadeType.ALL)
-	Set<OrderItems> orderItems = new HashSet<>();
+	@ManyToMany
+	@JoinTable(name = "zzzz_order_items",
+			joinColumns = @JoinColumn(name = "order_id", referencedColumnName = "id"),
+			inverseJoinColumns = @JoinColumn(name = "product_id", referencedColumnName = "id"))
+	Set<Products> product = new HashSet<>();
 
 	public Set<OrderPayment> getOrderPayments() {
 		return orderPayments;
@@ -51,13 +54,6 @@ public class Order {
 		this.orderPayments = orderPayments;
 	}
 
-	public Set<OrderItems> getOrderItems() {
-		return orderItems;
-	}
-
-	public void setOrderItems(Set<OrderItems> orderItems) {
-		this.orderItems = orderItems;
-	}
 
 	public Integer getId() {
 		return id;
@@ -85,6 +81,14 @@ public class Order {
 
 	public String getDesc() {
 		return desc;
+	}
+
+	public Set<Products> getProduct() {
+		return product;
+	}
+
+	public void setProduct(Set<Products> product) {
+		this.product = product;
 	}
 
 	public void setDesc(String desc) {

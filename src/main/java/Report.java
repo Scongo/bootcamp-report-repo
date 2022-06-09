@@ -1,5 +1,6 @@
 import com.fasterxml.jackson.core.type.TypeReference;
 import com.fasterxml.jackson.databind.ObjectMapper;
+import org.apache.commons.collections4.CollectionUtils;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import za.co.paygate.report.config.Config;
@@ -49,6 +50,7 @@ public class Report {
 		ArrayList<OrderPayment> orderPaymentList = new ArrayList<>();
 		ArrayList<Products> productList = new ArrayList<>();
 		ArrayList<OrderItems> orderItemsList = new ArrayList<>();
+		ArrayList<String> productNameList = new ArrayList<>();
 
 		Order order = new Order();
 		OrderItems orderItems = new OrderItems();
@@ -61,8 +63,27 @@ public class Report {
 		OrderItemsRepository orderItemsRepository = new OrderItemsRepository(em);
 
 
+
 		if(!(Order.getOrder(em).size() > 0)) {
 			//em.detach(order);
+
+			responseItem.forEach(responseItems -> {
+						responseItems.getItems().forEach(item -> {
+							if (item.getProduct() != null) {
+								//Products.saveProduct(em, products);
+								if (productsRepository.findByName(item.getProduct().getName()).size() <= 0) {
+									products.setName(item.getProduct().getName());
+									products.setPrice(item.getProduct().getPrice());
+									products.setDesc(item.getProduct().getDesc());
+									productsRepository.save(products);
+								}
+
+							}
+							productNameList.add(item.getProduct().getName());
+						});
+					});
+
+
 			responseItem.forEach(responseItems -> {
 
 				order.setOrderNumber(responseItems.getOrderId());
@@ -70,33 +91,14 @@ public class Report {
 				order.setDesc(responseItems.getDesc());
 				order.setCreatedAt(new Date(responseItems.getCreated() * 1000));
 
-				if (responseItems.getItems() != null || responseItems.getItems().size() > 0) {
-					//em.detach(products);
-					//Populate product table with distinct products
-					responseItems.getItems().forEach(item -> {
-						if (item.getProduct() != null){
-						//Products.saveProduct(em, products);
-							if(productsRepository.findByName(item.getProduct().getName()).size() <= 0 ){
-								products.setName(item.getProduct().getName());
-								products.setPrice(item.getProduct().getPrice());
-								products.setDesc(item.getProduct().getDesc());
-//								orderItems.setOrder(order);
-//								orderItems.setProducts(products);
-//								products.setOrderItems(new HashSet<OrderItems>(orderItemsList));
-//								orderItemsList.add(orderItems);
-								productsRepository.save(products);
-							}
 
-					}
-					});
+				final Set<Products> products1 = CollectionUtils.isEmpty(productNameList)
+									? null
+									: productsRepository.findAll().stream()
+									.filter(Objects::nonNull)
+									.filter(products2 -> productNameList.contains(products2.getName()))
+									.collect(Collectors.toSet());
 
-
-				}
-				orderItems.setProducts(products);
-				orderItems.setOrder(order);
-				orderItemsList.add(orderItems);
-
-				orderItemsRepository.save(orderItems);
 
 
 				int[] runCount = {0};
@@ -114,11 +116,9 @@ public class Report {
 					order.setOrderPayments(new HashSet<OrderPayment>(orderPaymentList));
 				}
 
-				order.setOrderItems(new HashSet<OrderItems>(orderItemsList));
+				order.setProduct(products1);
 				orderRepository.save(order);
 
-
-				orderItemsList.add(orderItems);
 			});
 		}
 
