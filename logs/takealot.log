@@ -1,20 +1,60 @@
-2022-06-09 23:39:24,198 [takealot] INFO  za.co.paygate.report.config.Config - Loading application.properties from resources/config/dev
-2022-06-09 23:39:24,222 [takealot] INFO  za.co.paygate.report.config.Config - Loading persistence.properties from resources/config/dev
-2022-06-09 23:39:24,226 [takealot] INFO  za.co.paygate.report.config.Config - Loading ${args.size} arg(s) into config
-2022-06-09 23:39:24,227 [takealot] INFO  Report - env:dev
-2022-06-09 23:39:25,147 [takealot] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [
+2022-06-10 00:06:16,658 [takealot] INFO  za.co.paygate.report.config.Config - Loading application.properties from resources/config/dev
+2022-06-10 00:06:16,668 [takealot] INFO  za.co.paygate.report.config.Config - Loading persistence.properties from resources/config/dev
+2022-06-10 00:06:16,671 [takealot] INFO  za.co.paygate.report.config.Config - Loading ${args.size} arg(s) into config
+2022-06-10 00:06:16,671 [takealot] INFO  Report - env:dev
+2022-06-10 00:06:17,390 [takealot] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [
 	name: paymentReport
 	...]
-2022-06-09 23:39:25,266 [takealot] INFO  org.hibernate.Version - HHH000412: Hibernate Core {5.2.4.Final}
-2022-06-09 23:39:25,268 [takealot] INFO  org.hibernate.cfg.Environment - HHH000206: hibernate.properties not found
-2022-06-09 23:39:25,270 [takealot] INFO  org.hibernate.cfg.Environment - HHH000021: Bytecode provider name : javassist
-2022-06-09 23:39:25,341 [takealot] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
-2022-06-09 23:39:25,569 [takealot] WARN  org.hibernate.orm.connections.pooling - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
-2022-06-09 23:39:25,585 [takealot] INFO  org.hibernate.orm.connections.pooling - HHH10001005: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/payment_report]
-2022-06-09 23:39:25,586 [takealot] INFO  org.hibernate.orm.connections.pooling - HHH10001001: Connection properties: {password=****, user=root}
-2022-06-09 23:39:25,586 [takealot] INFO  org.hibernate.orm.connections.pooling - HHH10001003: Autocommit mode: false
-2022-06-09 23:39:25,596 [takealot] INFO  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl - HHH000115: Hibernate connection pool size: 20 (min=1)
-2022-06-09 23:39:26,926 [takealot] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQLInnoDBDialect
-2022-06-09 23:39:27,386 [takealot] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 5.2.4.Final
-2022-06-09 23:39:27,832 [takealot] INFO  org.hibernate.orm.connections.access - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@5478ce1e] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
-2022-06-09 23:39:28,648 [takealot] INFO  org.hibernate.hql.internal.QueryTranslatorFactoryInitiator - HHH000397: Using ASTQueryTranslatorFactory
+2022-06-10 00:06:17,475 [takealot] INFO  org.hibernate.Version - HHH000412: Hibernate Core {5.2.4.Final}
+2022-06-10 00:06:17,476 [takealot] INFO  org.hibernate.cfg.Environment - HHH000206: hibernate.properties not found
+2022-06-10 00:06:17,478 [takealot] INFO  org.hibernate.cfg.Environment - HHH000021: Bytecode provider name : javassist
+2022-06-10 00:06:17,530 [takealot] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2022-06-10 00:06:17,688 [takealot] WARN  org.hibernate.orm.connections.pooling - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2022-06-10 00:06:17,697 [takealot] INFO  org.hibernate.orm.connections.pooling - HHH10001005: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/payment_report]
+2022-06-10 00:06:17,697 [takealot] INFO  org.hibernate.orm.connections.pooling - HHH10001001: Connection properties: {password=****, user=root}
+2022-06-10 00:06:17,697 [takealot] INFO  org.hibernate.orm.connections.pooling - HHH10001003: Autocommit mode: false
+2022-06-10 00:06:17,702 [takealot] INFO  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl - HHH000115: Hibernate connection pool size: 20 (min=1)
+2022-06-10 00:06:18,806 [takealot] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQLInnoDBDialect
+2022-06-10 00:06:19,250 [takealot] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 5.2.4.Final
+2022-06-10 00:06:19,686 [takealot] INFO  org.hibernate.orm.connections.access - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@5478ce1e] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2022-06-10 00:06:19,843 [takealot] INFO  org.hibernate.hql.internal.QueryTranslatorFactoryInitiator - HHH000397: Using ASTQueryTranslatorFactory
+2022-06-10 00:32:25,736 [takealot] INFO  za.co.paygate.report.config.Config - Loading application.properties from resources/config/dev
+2022-06-10 00:32:25,741 [takealot] INFO  za.co.paygate.report.config.Config - Loading persistence.properties from resources/config/dev
+2022-06-10 00:32:25,745 [takealot] INFO  za.co.paygate.report.config.Config - Loading ${args.size} arg(s) into config
+2022-06-10 00:32:25,745 [takealot] INFO  Report - env:dev
+2022-06-10 00:32:26,589 [takealot] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [
+	name: paymentReport
+	...]
+2022-06-10 00:32:26,673 [takealot] INFO  org.hibernate.Version - HHH000412: Hibernate Core {5.2.4.Final}
+2022-06-10 00:32:26,674 [takealot] INFO  org.hibernate.cfg.Environment - HHH000206: hibernate.properties not found
+2022-06-10 00:32:26,676 [takealot] INFO  org.hibernate.cfg.Environment - HHH000021: Bytecode provider name : javassist
+2022-06-10 00:32:26,730 [takealot] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2022-06-10 00:32:26,930 [takealot] WARN  org.hibernate.orm.connections.pooling - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2022-06-10 00:32:26,939 [takealot] INFO  org.hibernate.orm.connections.pooling - HHH10001005: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/payment_report]
+2022-06-10 00:32:26,940 [takealot] INFO  org.hibernate.orm.connections.pooling - HHH10001001: Connection properties: {password=****, user=root}
+2022-06-10 00:32:26,940 [takealot] INFO  org.hibernate.orm.connections.pooling - HHH10001003: Autocommit mode: false
+2022-06-10 00:32:26,945 [takealot] INFO  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl - HHH000115: Hibernate connection pool size: 20 (min=1)
+2022-06-10 00:32:28,193 [takealot] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQLInnoDBDialect
+2022-06-10 00:32:28,836 [takealot] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 5.2.4.Final
+2022-06-10 00:32:29,273 [takealot] INFO  org.hibernate.orm.connections.access - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@61ab89b0] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2022-06-10 00:32:29,450 [takealot] INFO  org.hibernate.hql.internal.QueryTranslatorFactoryInitiator - HHH000397: Using ASTQueryTranslatorFactory
+2022-06-10 00:33:42,399 [takealot] INFO  za.co.paygate.report.config.Config - Loading application.properties from resources/config/dev
+2022-06-10 00:33:42,403 [takealot] INFO  za.co.paygate.report.config.Config - Loading persistence.properties from resources/config/dev
+2022-06-10 00:33:42,406 [takealot] INFO  za.co.paygate.report.config.Config - Loading ${args.size} arg(s) into config
+2022-06-10 00:33:42,406 [takealot] INFO  Report - env:dev
+2022-06-10 00:33:43,216 [takealot] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [
+	name: paymentReport
+	...]
+2022-06-10 00:33:43,337 [takealot] INFO  org.hibernate.Version - HHH000412: Hibernate Core {5.2.4.Final}
+2022-06-10 00:33:43,339 [takealot] INFO  org.hibernate.cfg.Environment - HHH000206: hibernate.properties not found
+2022-06-10 00:33:43,341 [takealot] INFO  org.hibernate.cfg.Environment - HHH000021: Bytecode provider name : javassist
+2022-06-10 00:33:43,410 [takealot] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2022-06-10 00:33:43,666 [takealot] WARN  org.hibernate.orm.connections.pooling - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2022-06-10 00:33:43,681 [takealot] INFO  org.hibernate.orm.connections.pooling - HHH10001005: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/payment_report]
+2022-06-10 00:33:43,682 [takealot] INFO  org.hibernate.orm.connections.pooling - HHH10001001: Connection properties: {password=****, user=root}
+2022-06-10 00:33:43,682 [takealot] INFO  org.hibernate.orm.connections.pooling - HHH10001003: Autocommit mode: false
+2022-06-10 00:33:43,688 [takealot] INFO  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl - HHH000115: Hibernate connection pool size: 20 (min=1)
+2022-06-10 00:33:44,922 [takealot] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQLInnoDBDialect
+2022-06-10 00:33:45,343 [takealot] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 5.2.4.Final
+2022-06-10 00:33:45,770 [takealot] INFO  org.hibernate.orm.connections.access - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@61ab89b0] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2022-06-10 00:33:46,486 [takealot] INFO  org.hibernate.hql.internal.QueryTranslatorFactoryInitiator - HHH000397: Using ASTQueryTranslatorFactory

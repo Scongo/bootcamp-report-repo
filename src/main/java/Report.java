@@ -36,6 +36,10 @@ public class Report {
 	private static EntityManagerFactory emf = null;
 	private static EntityManager em = null;
 	public static Config config;
+	private static ProductsRepository productsRepository;
+	private static OrderRepository orderRepository;
+	private static Products products;
+	private static ArrayList<String> productNameList;
 
 	public static void main(String[] args) throws IOException {
 
@@ -50,39 +54,23 @@ public class Report {
 		ArrayList<OrderPayment> orderPaymentList = new ArrayList<>();
 		ArrayList<Products> productList = new ArrayList<>();
 		ArrayList<OrderItems> orderItemsList = new ArrayList<>();
-		ArrayList<String> productNameList = new ArrayList<>();
+		productNameList = new ArrayList<>();
 
 		Order order = new Order();
 		OrderItems orderItems = new OrderItems();
-		Products products = new Products();
+		products = new Products();
 		OrderPayment orderPayment = new OrderPayment();
 
-		OrderRepository orderRepository = new OrderRepository(em);
-		OrderPaymentRepository orderPaymentRepository = new OrderPaymentRepository(em);
-		ProductsRepository productsRepository = new ProductsRepository(em);
-		OrderItemsRepository orderItemsRepository = new OrderItemsRepository(em);
+		orderRepository = new OrderRepository(em);
+		productsRepository = new ProductsRepository(em);
 
 
+		// Persist Order information to PaymentDB
 
 		if(!(Order.getOrder(em).size() > 0)) {
 			//em.detach(order);
 
-			responseItem.forEach(responseItems -> {
-						responseItems.getItems().forEach(item -> {
-							if (item.getProduct() != null) {
-								//Products.saveProduct(em, products);
-								if (productsRepository.findByName(item.getProduct().getName()).size() <= 0) {
-									products.setName(item.getProduct().getName());
-									products.setPrice(item.getProduct().getPrice());
-									products.setDesc(item.getProduct().getDesc());
-									productsRepository.save(products);
-								}
-
-							}
-							productNameList.add(item.getProduct().getName());
-						});
-					});
-
+			saveProducts(responseItem);
 
 			responseItem.forEach(responseItems -> {
 
@@ -149,6 +137,23 @@ public class Report {
 
 	}
 
+	public static void saveProducts(List<ResponseItem> responseItem ){
+		responseItem.forEach(responseItems -> {
+			responseItems.getItems().forEach(item -> {
+				if (item.getProduct() != null) {
+					//Products.saveProduct(em, products);
+					if (productsRepository.findByName(item.getProduct().getName()).size() <= 0) {
+						products.setName(item.getProduct().getName());
+						products.setPrice(item.getProduct().getPrice());
+						products.setDesc(item.getProduct().getDesc());
+						productsRepository.save(products);
+					}
+
+				}
+				productNameList.add(item.getProduct().getName());
+			});
+		});
+	}
 
 	public static void loadConfig(String[] args) {
 		String env = Op.of(Config.getEnv(args)).get("dev");
